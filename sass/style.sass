@@ -1,6 +1,8 @@
 %mp0
   margin: 0px
   padding: 0px
+%font
+  font-family: "Times New Roman"
 
 html,body
   margin: 0
@@ -30,7 +32,7 @@ header
     h1
       color: #fff
       font:
-        family: Arial
+        family: @extend %font
         size: 42px
     p
       color: #fff
@@ -47,7 +49,7 @@ header
       border-radius: 3px
       font:
         size: 17px
-        family: Arial
+        family: @extend %font
         style: italic
       text-decoration: none
       box-shadow: 3px 5px 12px
@@ -58,5 +60,8 @@ header
       a
         color: #ffffff
         padding-left: 12px
+      &:hover
+        color: red
+
 
 
