@@ -1,0 +1,34 @@
+/*
+Error: Inconsistent indentation: 9 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 15 of /Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass
+
+10:     width: 183px
+11:       margin: 0 auto
+12:       padding: 120px 0 0
+13:       a
+14:         background-image: url('../img/logo.png')
+15:          display: block
+16:           height: 183px
+17:           width: 183px
+18:           text-align: center
+19:           text-indent: -99999px
+20: 
+
+Backtrace:
+/Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass:15
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:483:in `block in tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:441:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:441:in `each_with_index'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:441:in `tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:406:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 9 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 15 of /Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass\A \A 10:     width: 183px\A 11:       margin: 0 auto\A 12:       padding: 120px 0 0\A 13:       a\A 14:         background-image: url('../img/logo.png')\A 15:          display: block\A 16:           height: 183px\A 17:           width: 183px\A 18:           text-align: center\A 19:           text-indent: -99999px\A 20: "; }

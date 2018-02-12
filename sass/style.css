@@ -1,3 +1,7 @@
+header.frontpage p {
+  margin: 0px;
+  padding: 0px; }
+
 html, body {
   margin: 0;
   padding: 0; }
@@ -20,5 +24,29 @@ header {
     background-image: url("../img/bg.jpg");
     background-size: cover;
     text-align: center; }
+    header.frontpage h1 {
+      color: #fff;
+      font-family: Arial;
+      font-size: 42px; }
+    header.frontpage p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 1.75; }
+    header.frontpage .btn {
+      padding: 10px 20px;
+      background: #ffffff;
+      color: #000;
+      display: inline-block;
+      border-radius: 3px;
+      font-size: 17px;
+      font-family: Arial;
+      font-style: italic;
+      text-decoration: none;
+      box-shadow: 3px 5px 12px;
+      margin: 20px;
+      padding: 10px 20px; }
+    header.frontpage nav a {
+      color: #ffffff;
+      padding-left: 12px; }
 
 /*# sourceMappingURL=style.css.map */
