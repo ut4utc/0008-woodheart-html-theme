@@ -4,6 +4,29 @@
 %font
   font-family: "Times New Roman"
 
+.btn
+  padding: 10px 20px
+  display: inline-block
+  border-radius: 3px
+  font:
+    size: 17px
+    family: @extend %font
+    style: italic
+  text-decoration: none
+  box-shadow: 3px 5px 12px
+  margin: 20px
+  padding: 10px 20px
+  
+  &.btn-white
+    color: #000
+    background: #fff
+  &.btn-black
+    color: #fff
+    background: #000
+
+
+/* */
+
 html,body
   margin: 0
   padding: 0
@@ -41,21 +64,6 @@ header
       line-height: 1.75
       @extend %mp0
 
-    .btn
-      padding: 10px 20px
-      background: #ffffff
-      color: #000
-      display: inline-block
-      border-radius: 3px
-      font:
-        size: 17px
-        family: @extend %font
-        style: italic
-      text-decoration: none
-      box-shadow: 3px 5px 12px
-      margin: 20px
-      padding: 10px 20px
-
     nav
       a
         color: #ffffff
@@ -63,5 +71,19 @@ header
       &:hover
         color: red
 
+
+.bigtitle .header, 
+.bigtitle > header h1
+      font-size: 45px
+      font-weight: 400
+      color: #000
+      line-height: 1.4
+      text-align: center
+      text-transform: none
+
+
+  
+/* About section */ 
+.about
 
 
