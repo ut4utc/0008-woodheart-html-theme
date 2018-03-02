@@ -1,0 +1,56 @@
+/*
+Error: Invalid CSS after "": expected expression (e.g. 1px, bold), was "@extend %font"
+        on line 13 of /Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass
+
+8:   padding: 10px 20px
+9:   display: inline-block
+10:   border-radius: 3px
+11:   font:
+12:     size: 17px
+13:     family: @extend %font
+14:     style: italic
+15:   text-decoration: none
+16:   box-shadow: 3px 5px 12px
+17:   margin: 20px
+18:   padding: 10px 20px
+
+Backtrace:
+/Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass:13
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/lexer.rb:227:in `expected!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:673:in `assert_expr'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:63:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:223:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script.rb:27:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:1145:in `parse_script'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:718:in `parse_property'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:689:in `parse_property_or_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:655:in `parse_line'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:533:in `build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:552:in `block in append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:542:in `block in build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:552:in `block in append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:542:in `block in build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `build_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:552:in `block in append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:551:in `append_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:406:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected expression (e.g. 1px, bold), was \"@extend %font\"\A         on line 13 of /Users/ut4utc/GitHub/0008-woodheart-html-theme/sass/style.sass\A \A 8:   padding: 10px 20px\A 9:   display: inline-block\A 10:   border-radius: 3px\A 11:   font:\A 12:     size: 17px\A 13:     family: @extend %font\A 14:     style: italic\A 15:   text-decoration: none\A 16:   box-shadow: 3px 5px 12px\A 17:   margin: 20px\A 18:   padding: 10px 20px"; }
