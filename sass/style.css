@@ -2,6 +2,25 @@ header.frontpage p {
   margin: 0px;
   padding: 0px; }
 
+.btn {
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 17px;
+  font-family: "Times New Roman";
+  font-style: italic;
+  text-decoration: none;
+  box-shadow: 3px 5px 12px;
+  margin: 20px;
+  padding: 10px 20px; }
+  .btn.btn-white {
+    color: #000;
+    background: #fff; }
+  .btn.btn-black {
+    color: #fff;
+    background: #000; }
+
+/* */
 html, body {
   margin: 0;
   padding: 0; }
@@ -26,27 +45,32 @@ header {
     text-align: center; }
     header.frontpage h1 {
       color: #fff;
-      font-family: Arial;
+      font-family: "Times New Roman";
       font-size: 42px; }
     header.frontpage p {
       color: #fff;
       font-size: 16px;
       line-height: 1.75; }
-    header.frontpage .btn {
-      padding: 10px 20px;
-      background: #ffffff;
-      color: #000;
-      display: inline-block;
-      border-radius: 3px;
-      font-size: 17px;
-      font-family: Arial;
-      font-style: italic;
-      text-decoration: none;
-      box-shadow: 3px 5px 12px;
-      margin: 20px;
-      padding: 10px 20px; }
     header.frontpage nav a {
       color: #ffffff;
       padding-left: 12px; }
+    header.frontpage nav:hover {
+      color: red; }
+
+.bigtitle .header,
+.bigtitle > header h1 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: none; }
+
+/* About section */
+.about {
+  margin: 0 auto;
+  padding: 100px 50px; }
+  .about.header {
+    padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */
